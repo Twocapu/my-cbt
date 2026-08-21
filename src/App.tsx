@@ -11,7 +11,7 @@ import { Header } from './components/Header';
 import { HistoryModal } from './components/HistoryModal';
 
 export default function App() {
-  const [selectedYear, setSelectedYear] = useState<number | 'all'>(2026);
+  const [selectedYear, setSelectedYear] = useState<number | 'all'>('all');
   const [selectedSubjectId, setSelectedSubjectId] = useState<string>('ethics');
   const [examMode, setExamMode] = useState<ExamMode>('mock');
   const [isFullExam, setIsFullExam] = useState<boolean>(false);
